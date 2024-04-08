@@ -1,3 +1,5 @@
+import { H1 } from '@/components/H1';
+
 export default function Page() {
-  return <h1>Dashboard settings</h1>;
+  return <H1>Dashboard settings</H1>;
 }
