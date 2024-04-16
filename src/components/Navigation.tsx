@@ -24,6 +24,13 @@ export default function Navigation() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
+          <Link href="/chat" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Chat
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
           <NavigationMenuTrigger>Dashboard</NavigationMenuTrigger>
           <NavigationMenuContent>
             <Link href="/dashboard" passHref legacyBehavior>
